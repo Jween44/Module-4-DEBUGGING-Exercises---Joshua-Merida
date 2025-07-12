@@ -1,0 +1,24 @@
+// there are 5 questions total, and the timer will run for 40 seconds per question
+
+
+start
+declarations 
+num moneyAmount
+	while question exists
+		contestant picks a category
+		contestant picks money amount
+		host reads the question
+		timer starts
+		while timer is going 
+			contestant hits button to say answer
+			contestant says answer
+			if answer is right 
+				contestant earns moneyAmount 
+				timer stops
+			else
+				contestant loses moneyAmount
+				timer runs out
+			end if
+		end while
+	end while
+stop
